@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.about div {
+    display: flex;
+    justify-content: center;
+}
+
+.about h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    font-weight: 100;
+}
+
+.about div img {
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.about p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    line-height: 2.5rem;
+    font-weight: 100;
+    word-spacing: .2rem;
+    color: lightslategray;
+    margin-top: 2rem;
+}
