@@ -1,21 +1,38 @@
 import React from 'react';
 
-import background from '../../Images/background.jpg'
 import styles from './Header.module.css'
+
 
 class Header extends React.Component {
     render(){
 
        return ( 
         <div className={styles.container}>
+            
             <header className={styles.header}>
-                <ul>
-                    <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
-                </ul>
-                <h1>Hi, I m Mohit</h1>
+
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+                <a class="navbar-brand" href="#">Mohit Bisht</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    </ul>
+                </div>
+                </nav>
+            
+                <h1 data-aos="fade-down">HI, I'M MOHIT</h1>
+                <p data-aos="fade-up">Full Stack Web Developer</p>
             </header>
         </div>
        )

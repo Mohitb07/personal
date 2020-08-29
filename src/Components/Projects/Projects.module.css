@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    margin-bottom: 4rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards > div{
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    opacity: .7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.cards > div:hover {
+    opacity: 1;
+    transform: scale(1.3);
+}

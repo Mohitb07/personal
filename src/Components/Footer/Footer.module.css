@@ -1,0 +1,29 @@
+footer {
+    background-color:black;
+    color: white;
+    font-size: 150%;
+    height: 10rem;
+}
+
+footer .social {
+    text-align: center;
+    padding-top:1%;
+}
+
+footer .social a {
+    color: white;
+    margin-right:10px;
+}
+
+.footerMenu a {
+    display: inline-block;
+    padding-right: 40px;
+    font-size: 80%;
+    text-decoration: none;
+    color: white !important;
+}
+
+.copyright {
+    font-size: 70%;
+    padding-top: 1%;
+}

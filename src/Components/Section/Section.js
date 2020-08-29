@@ -8,16 +8,18 @@ class Header extends React.Component {
     render(){
 
        return ( 
-        <div className={styles.container}>
-            <section className={styles.about}>
-                <h2>About Me</h2>
+        <div className="container">
+            <div className="container">
+            <section className={styles.about} data-aos="fade-up">
+                <h2>ABOUT ME</h2>
                 <div>
                     <img src={profile}/>
                 </div>
-                <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis temporibus labore tempora culpa molestiae illum eveniet consequatur aspernatur mollitia odio excepturi, eum error animi et sit consectetur aliquam doloremque, delectus aperiam placeat fugiat incidunt. Rerum quam unde eveniet culpa iure repellendus tenetur! Consectetur, doloremque iusto voluptate eius adipisci modi autem.
+                <p className="container text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis temporibus labore tempora culpa molestiae illum eveniet consequatur aspernatur mollitia odio excepturi, eum error animi et sit consectetur aliquam doloremque, delectus aperiam 
                 </p>
             </section>
+            </div>
         </div>
        )
     }

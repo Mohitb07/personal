@@ -25,5 +25,13 @@
 
 .interest img {
     height: 150px;
+    opacity: .7;
     margin: 3rem;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.interest img:hover {
+    opacity: 1;
+    transform: scale(1.5);
 }

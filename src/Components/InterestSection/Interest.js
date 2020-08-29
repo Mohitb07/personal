@@ -8,13 +8,16 @@ import js from '../../Images/js.webp'
 import python from '../../Images/python1.png'
 import django from '../../Images/django.webp'
 import react from '../../Images/react.webp'
+import nodejs from '../../Images/nodejs.png'
+import bootstrap from '../../Images/bootstrap.png'
 
 class Header extends React.Component {
     render(){
 
        return ( 
         <div className={styles.container}>
-            <section className={styles.interest}>
+            <div className="container">
+            <section className={styles.interest} data-aos="fade-up">
                 <h2>Interest and Skills</h2>
                 <h3>Languages:</h3>
                 <img src={html}/>
@@ -24,7 +27,10 @@ class Header extends React.Component {
                 <h3>Technologies:</h3>
                 <img src={django}/>
                 <img src={react}/>
+                <img src={nodejs}/>
+                <img src={bootstrap}/>
             </section>
+            </div>
         </div>
        )
     }
