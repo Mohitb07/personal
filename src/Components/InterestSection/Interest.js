@@ -15,20 +15,20 @@ class Header extends React.Component {
     render(){
 
        return ( 
-        <div className={styles.container}>
+        <div className={styles.container} id="interest">
             <div className="container">
             <section className={styles.interest} data-aos="fade-up">
                 <h2>Interest and Skills</h2>
                 <h3>Languages:</h3>
-                <img src={html}/>
-                <img src={css}/>
-                <img src={js}/>
-                <img src={python}/>
+                <img src={html} alt='html'/>
+                <img src={css} alt='css'/>
+                <img src={js} alt='js'/>
+                <img src={python} alt='python'/>
                 <h3>Technologies:</h3>
-                <img src={django}/>
-                <img src={react}/>
-                <img src={nodejs}/>
-                <img src={bootstrap}/>
+                <img src={django} alt='django'/>
+                <img src={react} alt='react'/>
+                <img src={nodejs} alt='nodejs'/>
+                <img src={bootstrap} alt='bootstrap'/>
             </section>
             </div>
         </div>

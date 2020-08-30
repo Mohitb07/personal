@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     /* width: 65%; */
     margin: 0 auto;

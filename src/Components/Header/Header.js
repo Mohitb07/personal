@@ -2,7 +2,6 @@ import React from 'react';
 
 import styles from './Header.module.css'
 
-
 class Header extends React.Component {
     render(){
 
@@ -11,21 +10,24 @@ class Header extends React.Component {
             
             <header className={styles.header}>
 
-            <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-                <a class="navbar-brand" href="#">Mohit Bisht</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
+                <a className="navbar-brand" href="/">Mohit Bisht</a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul className="navbar-nav ml-auto">
+                    <li className="nav-item active">
+                        <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#about">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#interest">Interest</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#projects">Projects</a>
                     </li>
                     </ul>
                 </div>
