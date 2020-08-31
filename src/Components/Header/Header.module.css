@@ -47,11 +47,15 @@
     opacity: .8;
 }
 
-.header p {
+
+
+.header h4 {
     color: rgba(221,221,221);
-    position: absolute;
-    top: 30rem;
-    left: 54rem;
+    position: relative;
+    top: 22rem;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 300;

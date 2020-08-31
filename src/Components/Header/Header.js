@@ -34,7 +34,7 @@ class Header extends React.Component {
                 </nav>
             
                 <h1 data-aos="fade-down">HI, I'M MOHIT</h1>
-                <p data-aos="fade-up">Full Stack Web Developer</p>
+                <h4 data-aos="fade-up">Full Stack Web Developer</h4>
             </header>
         </div>
        )
