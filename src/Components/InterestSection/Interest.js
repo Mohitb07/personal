@@ -18,7 +18,7 @@ class Header extends React.Component {
         <div className={styles.container} id="interest">
             <div className="container">
             <section className={styles.interest} data-aos="fade-up">
-                <h2>Interest and Skills</h2>
+                <h2>Currently working with these:</h2>
                 <h3>Languages:</h3>
                 <img src={html} alt='html'/>
                 <img src={css} alt='css'/>
