@@ -1,0 +1,39 @@
+
+.newContainer {
+    background-image: url('../../Images/formBackground.jpg');
+    height: 300px;
+    margin-bottom: 3rem;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    width: 50%;
+    margin: 4rem 0;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    color: #a3a3a3;
+    padding: 22px 18px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);   
+}
+.form input:hover {
+    outline-width: 0;
+}
+
+.form button {
+    padding: 16px 18px;
+    width: 15%;
+    outline: 0;
+    background-color: #7f8ff4;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+}
