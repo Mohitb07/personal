@@ -14,8 +14,8 @@ class App extends React.Component {
             <Header/>
             <Section/>
             <Interest/>
-            <Form/>
             <Projects/>
+            <Form/>
             <Footer/>
             </>
         )

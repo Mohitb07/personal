@@ -8,6 +8,7 @@ class Header extends React.Component {
 
        return ( 
             <div  className="container" id="about">
+                <div data-aos="fade-up" className={styles.box}>
             <section className={styles.about}>
                 <h2 data-aos="fade-up">ABOUT ME</h2>
                 <div data-aos="fade-up">
@@ -17,6 +18,7 @@ class Header extends React.Component {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis temporibus labore tempora culpa molestiae illum eveniet consequatur aspernatur mollitia odio excepturi, eum error animi et sit consectetur aliquam doloremque, delectus aperiam 
                 </p>
             </section>
+            </div>
             </div>
        )
     }
