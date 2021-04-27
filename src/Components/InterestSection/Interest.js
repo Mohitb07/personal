@@ -15,6 +15,7 @@ class Header extends React.Component {
     render(){
 
        return ( 
+        <div className={styles.background}>
         <div className={styles.container} id="interest">
             <div className="container">
             <section className={styles.interest} data-aos="fade-up">
@@ -31,6 +32,7 @@ class Header extends React.Component {
                 <img src={bootstrap} alt='bootstrap'/>
             </section>
             </div>
+        </div>
         </div>
        )
     }

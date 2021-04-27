@@ -1,11 +1,11 @@
 
-.newContainer {
+/* .newContainer {
     background-image: url('../../Images/formBackground.jpg');
     height: 300px;
     margin-bottom: 3rem;
     background-attachment: fixed;
     background-size: cover;
-}
+} */
 
 .form {
     display: flex;
