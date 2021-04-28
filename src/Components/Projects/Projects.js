@@ -13,7 +13,8 @@ class Projects extends React.Component {
     render(){
 
        return ( 
-           <div className="container" data-aos="fade-up" id="projects">
+           <div id="projects" className={styles.myContainer}>          
+           <div className="container" data-aos="fade-up" >
                <div className={styles.newContainer}>
                <div className={styles.heading}>
                 <h2 className="text-center">Some Projects</h2>
@@ -29,6 +30,7 @@ class Projects extends React.Component {
                </div>
                </div>
               
+           </div>
            </div>
        )
     }

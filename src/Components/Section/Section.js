@@ -22,8 +22,8 @@ class Header extends React.Component {
         //         </div>
         //         </div>
         //     </div>
-        <div className={styles.section}>
-            <div data-aos="fade-up" className="container">
+        <div id="about" className={styles.section}>
+            <div data-aos="fade-up"  className="container">
                 <section className={styles.about}>
                     <h2>About Me</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
