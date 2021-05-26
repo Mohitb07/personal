@@ -1,18 +1,12 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing:border-box;
 }
 
 .background {
-    /* background: linear-gradient(black,black), url('../../Images/backgroundInterest.jpg'); */
-    background: #24263B;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
+    background: url(../../Images/background.jpg);
     height: 100vh;
-    /* background-attachment: fixed; */
-    /* background-blend-mode: saturation; */
 }
 
 .container {
@@ -48,5 +42,55 @@ html {
 
 .interest img:hover {
     opacity: 1;
+    transform: scale(1.2);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.background {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../Images/new.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+span {
+    color: tomato;
+}
+
+.icons {  
+    margin-left: 40rem;    
+}
+
+.icon {
+    font-size: 5rem;
+    color: white;
+    margin: 20px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.icon:hover {    
+    /* opacity: 1; */
     transform: scale(1.5);
+}
+
+.interest {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 700;
+    margin-left: 2rem;
 }
