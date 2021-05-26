@@ -2,6 +2,8 @@ import React from 'react';
  
 import './Cards.css'
 
+import Button from '../Button'
+
 class Cards extends React.Component {
 
     render(){
@@ -13,8 +15,8 @@ class Cards extends React.Component {
                     <div className="card-body">
                         <h5 className="card-title">{this.props.title}</h5>
                             <p className="card-text">{this.props.text}</p>
-                        <a href={this.props.go} className="btn btn-outline-success" target="_blank" rel="noopener noreferrer" >Visit</a>
-                        <a href={this.props.source} className ="btn btn-outline-primary source" target="_blank" rel="noopener noreferrer">Source</a>
+                            <a href={this.props.go} target="_blank" rel="noopener noreferrer"><Button value={'Visit'}/></a>
+                            <a href={this.props.source} target="_blank" rel="noopener noreferrer"><Button value={'Source'}/></a>
                     </div>
            </div>    
             </React.Fragment>
